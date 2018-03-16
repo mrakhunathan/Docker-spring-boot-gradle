@@ -18,3 +18,6 @@ docker run -it 7c45ceab4331 /bin/bash
 
 # In case if the above didn't work (7c45ceab4331 is the image id)
 docker run -it 7c45ceab433
+
+# Deleting the image (7c45ceab4331 is the image id)
+docker rmi 7c45ceab4331
